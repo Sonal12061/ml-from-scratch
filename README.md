@@ -26,8 +26,8 @@ This repo implements classical Machine Learning algorithms and Deep Learning arc
 |---|---|---|---|
 | 01 | [RNN From Scratch](https://github.com/Sonal12061/ml-from-scratch/blob/main/RNN_from_scratch.ipynb) | Hidden state, BPTT, vanishing gradient | — |
 | 02 | [LSTM From Scratch](https://github.com/Sonal12061/ml-from-scratch/blob/main/LSTM_from_scratch.ipynb) | Forget/input/output gates, cell state | — |
-| 03 | [Transformer From Scratch](https://github.com/Sonal12061/ml-from-scratch/blob/main/Transformer_from_scratch.ipynb) | Self-attention, positional encoding, multi-head attention | Pytorch |
-| 04 | [miniGPT From Scratch](https://github.com/Sonal12061/ml-from-scratch/blob/main/miniGPT_from_scratch.ipynb) | Causal attention, token generation, training on real text | Pytorch |
+| 03 | [Transformer From Scratch](https://github.com/Sonal12061/ml-from-scratch/blob/main/Transformer_from_scratch.ipynb) | Self-attention, positional encoding, multi-head attention,PyTorch |  |
+| 04 | [miniGPT From Scratch](https://github.com/Sonal12061/ml-from-scratch/blob/main/miniGPT_from_scratch.ipynb) | Causal attention, token generation, training on real text,PyTorch |  |
 
 ---
 
