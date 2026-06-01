@@ -1,0 +1,60 @@
+# ── Virtual environment ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+# Keep notebook outputs in git (they show results without re-running)
+# To strip outputs before committing: jupyter nbconvert --clear-output --inplace *.ipynb
+
+# ── Model files ───────────────────────────────────────────────────────────────
+# Uncomment the lines below if you do NOT want to commit trained models.
+# They are checked in by default so model_comparison.ipynb works after a fresh clone.
+
+Models/*.joblib
+Models/*.npz
+Models/*.json
+Models/*.h5
+Models/*.pt
+Models/*.ckpt
+
+# ── OS / editor noise ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── Distribution / packaging ─────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ── Test / coverage ──────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Secrets & credentials ────────────────────────────────────────────────────
+.env
+*.pem
+*.key
+secrets.json
+
+# ── Data files (add if datasets get large) ───────────────────────────────────
+# data/
+# *.csv
+# *.parquet
